@@ -1,6 +1,5 @@
-const anagram = require('./anagram-checker').default
+const anagram = require('./anagram-checker')
 const assert = require('assert')
-
 describe('Tests', function () {
   it('anagram("friend", "finder") should return a boolean.', function () {
     assert(typeof anagram('friend', 'finder') === 'boolean')
